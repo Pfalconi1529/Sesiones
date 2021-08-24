@@ -37,6 +37,32 @@
     </nav>
   </header>
 
+
+  <div class="container p-4 bg-dark my-3">
+    <h2 class="text-danger text-center">Inicios de Sesiones</h2>
+
+    <div class="row ">
+      <div class="col-md-5 ">
+        <table class="container bg-light border table-bordered border-info">
+          <thead>
+            <tr>
+              <td>Id de usuario</td>
+              <td>Nombre de usuario</td>
+              <td>Cantidad de Sesiones</td>
+            </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td></td>
+             <td><?php echo $_SESSION['usuario'];?></td>
+             <td></td>
+           </tr>
+         </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
  	
  </body>
  </html>
